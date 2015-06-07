@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:gravity="center_horizontal"
+        android:text="@string/my_nanodegree" />
+
+    <Button
+        android:id="@+id/btnSpotifyStreamer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sptf_streamer"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/btnScoresApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scores_app"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/btnLibraryApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/library_app"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/btnBuildBigger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/build_bigger"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/btnXyzReader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xyz_reader"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/btnCapstone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/capstone"
+        android:textAllCaps="true" />
+
+</LinearLayout>
